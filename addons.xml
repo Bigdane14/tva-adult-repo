@@ -73,13 +73,15 @@ JAVStream V0.93.4 (3rd March 2018)
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.64"
+       version="1.1.65"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.resolveurl" version="5.0.00"/>
         <import addon="script.module.resolveurl.xxx" version="2.0.01"/>
         <import addon="script.video.F4mProxy" version="2.5.7" />
+		<import addon="script.module.requests" />
+
     </requires>
     <extension point="xbmc.python.pluginsource"
                library="default.py">
@@ -95,15 +97,11 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.1.64[/B]
-New site: YesPornPlease
-Fixed: Porntrex categories
-Fixed: Videomegaporn
-Fixed: Xtasie pagination and category listing
-Fixed: PornsLand channels pagination
-Fixed: Porndig
-Fixed: YourPorn top pornstars
-Fixed: deleting keywords</news>
+        <news>[B]Version 1.1.65 (mb)[/B]
+Fixed: All TUBES
+Fixed: All Hentais
+Fixed: Some Webcams
+Fixed: All Movies</news>
     </extension>
 </addon>
 
@@ -172,7 +170,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon
   id="plugin.video.videodevil"
-  version="1.7.211"
+  version="1.7.215"
   name="VideoDevil"
   provider-name="xbmc-adult">
   <requires>
