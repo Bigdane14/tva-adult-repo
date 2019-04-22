@@ -26,12 +26,32 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.lubetube"
+       name="Lubetube (Adult)"
+       version="1.20"
+       provider-name="xbmc-adult">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.future"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</summary>
+    <description>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.fantasticc"
        name="Fantasti.cc"
-       version="2.3.46"
+       version="2.3.48"
        provider-name="xbmc-adult">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.future"/>
         <import addon="script.module.pil"/>
     </requires>
     <extension point="xbmc.python.pluginsource"
@@ -71,9 +91,25 @@ JAVStream V0.93.4 (3rd March 2018)
 	</extension>
 </addon>
 
+<addon id="plugin.video.tube8" name="Tube8" version="2.1.13" provider-name="xbmc-adult">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.future"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Stream adult videos from tube8.com</summary>
+        <description>Tube8.com features a variety of adult videos. This addon contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon.  All content is hosted by tube8.com.</description>
+        <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.71"
+       version="1.1.75"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -97,9 +133,12 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.1.71[/B]
-Fixed: YourPorn
-Minor fix: PornDoe
+        <news>[B]Version 1.1.75[/B]
+Added: Freepornstreams
+Added: Viralvideosx
+Added: Xmoviesforyou
+Removed: Elreyx
+Removed: Videomegaporn
 </news>
     </extension>
 </addon>
@@ -169,7 +208,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon
   id="plugin.video.videodevil"
-  version="1.7.221"
+  version="1.7.228"
   name="VideoDevil"
   provider-name="xbmc-adult">
   <requires>
@@ -444,9 +483,10 @@ Scraped sources include: chaturbate, collectionsofbestporn, daftporn, drtuber, e
   </extension>
 </addon>
 
-<addon id="plugin.video.empflix" name="Empflix" version="2.0.12" provider-name="xbmc-adult">
+<addon id="plugin.video.empflix" name="Empflix" version="2.0.15" provider-name="xbmc-adult">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.future" version="0.0.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
