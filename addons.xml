@@ -74,7 +74,7 @@ JAVStream V0.93.4 (3rd March 2018)
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.75"
+       version="1.1.76"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -98,12 +98,9 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.1.75[/B]
-Added: Freepornstreams
-Added: Viralvideosx
-Added: Xmoviesforyou
-Removed: Elreyx
-Removed: Videomegaporn
+        <news>[B]Version 1.1.76[/B]
+Fixed: xmoviesforyou (next page + categories)
+Added: Xozilla
 </news>
     </extension>
 </addon>
@@ -210,48 +207,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.xvideos"
-version="1.2"
-name="Xvideos"
-provider-name="Lord Grey">
-<requires>
-  <import addon="xbmc.python" version="2.19.0"/>
-  <import addon="script.module.beautifulsoup4" version="4.5.3"/>
-  <import addon="script.module.certifi" />
-  <import addon="script.module.chardet" />
-  <import addon="script.module.idna" />
-  <import addon="script.module.requests" />
-  <import addon="script.module.urllib3" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">XVIDEOS.com Plugin for Kodi</summary>
-  <description lang="en_GB">A plugin to watch Xviedeos Content in Kodi</description>
-  <disclaimer lang="en_GB">
-    Videos are provided by www.xvideos.com.
-  </disclaimer>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-  </assets>
-  <license>GPL-3.0</license>
-  <website>https://www.xvideos.com</website>
-  <source>https://github.com/Space2Walker/plugin.video.xvideos</source>
-  <news>
-    V1.2
-    Now compatible to Kodi 17.6 and above.
-
-    V1.1
-    Now with "Search By"
-    Next now only shows up is a next site is there
-    and its at the bottom of the list.
-    Categorys are removed for Now.
-  </news>
-</extension>
 </addon>
 
 <addon id="metadata.movie.excaliburfilms.com"
