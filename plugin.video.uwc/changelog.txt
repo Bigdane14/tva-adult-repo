@@ -1,3 +1,25 @@
+Version 1.1.83
+Removed: Cat3Movie
+Fixed: PornHub
+Fixed: xHamster
+Fixed: Hentaihaven
+Fixed: XVideosHits
+Fixed: Anybunny
+Improved: Chaturbate,(Tag support)
+Improved: PornTrex
+
+Version 1.1.82
+Fixed: Xvideohits
+Fixed: Xtheatre
+Fixed: DaftSex
+ 
+Version 1.1.81
+Fixed: Animeid Hentai
+Fixed: DaftSex
+Fixed: ParadiseHill
+Fixed: DatoPorn
+Improved: utils.py
+
 Version 1.1.80
 Fixed: FreeOMovie
 Improved: ViralVideosX 
