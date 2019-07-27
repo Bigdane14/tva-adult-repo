@@ -74,7 +74,7 @@ JAVStream V0.93.4 (3rd March 2018)
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.89"
+       version="1.1.90"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -98,11 +98,10 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.1.89[/B]
-Fixed: BubbaPorn
-Improved: HQPorner
-Account added to settings for PornTrex and JavWhores
-General maintenance
+        <news>[B]Version 1.1.90[/B]
+Fixed: ParadiseHill
+Fixed: PornTrex Downloads
+Fixed: Download Folder Leia Bug
 </news>
     </extension>
 </addon>
