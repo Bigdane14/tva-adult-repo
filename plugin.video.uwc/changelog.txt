@@ -1,3 +1,9 @@
+Version 1.1.93
+Fixed: PornAQ
+Fixed: Porn00
+Fixed: sxyprn(YourPorn)
+Improved: HQPorner
+
 Version 1.1.92
 Removed: Vidz7
 Added: Hzpornz
