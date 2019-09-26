@@ -74,7 +74,7 @@ JAVStream V0.93.4 (3rd March 2018)
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.93"
+       version="1.1.95"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -98,11 +98,13 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.1.93[/B]
-Fixed: PornAQ
-Fixed: Porn00
-Fixed: sxyprn(YourPorn)
-Improved: HQPorner
+        <news>[B]Version 1.1.95[/B]
+Fixed: Sextube.nl
+Added: 12Milf.nl
+Fixed: Animeid Hentai
+Fixed: Beeg
+Removed: K18
+Play from here bugfix
 </news>
     </extension>
 </addon>
