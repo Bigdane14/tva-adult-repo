@@ -74,7 +74,7 @@ JAVStream V0.93.4 (3rd March 2018)
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.95"
+       version="1.1.96"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -98,13 +98,14 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.1.95[/B]
-Fixed: Sextube.nl
-Added: 12Milf.nl
-Fixed: Animeid Hentai
-Fixed: Beeg
-Removed: K18
-Play from here bugfix
+        <news>[B]Version 1.1.96[/B]
+Fixed: Eroticage
+Fixed: HClips
+Fxed: MangoPorn
+Fixed: Spankbang
+Fixed: SpeedPorn
+Fixed: Xtheatre
+Fixed: BubbaPorn
 </news>
     </extension>
 </addon>
@@ -194,7 +195,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon
   id="plugin.video.videodevil"
-  version="1.7.235"
+  version="1.7.236"
   name="VideoDevil"
   provider-name="xbmc-adult">
   <requires>
