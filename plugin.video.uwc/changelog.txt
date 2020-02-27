@@ -1,3 +1,9 @@
+Version 1.2.12
+Fixed: DatoPorn
+Fixed: Eporner
+Fixed: Xmoviesforyou
+Fixed: Hotpornfile
+
 Version 1.2.11
 Fixed: Beeg
 Changed: Myfreecams
