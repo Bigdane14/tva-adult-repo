@@ -74,7 +74,7 @@ JAVStream V0.93.4 (3rd March 2018)
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.2.13"
+       version="1.2.14"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -98,11 +98,10 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.2.13[/B]
-Fixed: Animeid Hentai
-Fixed: Eporner
-Fixed: HClips
-Improved: xHamster
+        <news>[B]Version 1.2.14[/B]
+Fixed: PornHub
+Fixed: HQPorner
+Fixed: sxyprn(YourPorn)
 </news>
     </extension>
 </addon>
@@ -364,7 +363,7 @@ adulthideout@yandex.com[/COLOR]
 
 <addon id="metadata.movie.aebn.gay.net"
        name="AEBN Gay"
-       version="1.2.4"
+       version="1.2.5"
        provider-name="xbmc-adult">
   <requires>
     <import addon="xbmc.metadata" version="1.0"/>
