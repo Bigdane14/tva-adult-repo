@@ -28,7 +28,7 @@
 
 <addon id="plugin.video.fantasticc"
        name="Fantasti.cc"
-       version="2.3.48"
+       version="2.3.50"
        provider-name="xbmc-adult">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -74,7 +74,7 @@ JAVStream V0.93.4 (3rd March 2018)
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.2.17"
+       version="1.2.18"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -98,13 +98,9 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.2.17[/B]
-updated:
-daftsex,datoporn,freepornstreams,hotpornfile,justporn,mangoporn,perfectgirls,porndoe,sxyprn,Amateur Cool
-removed:
-watchxxxfree,yourfreetube,xtasie,pornsland,yespornplease,xvideohits,xtheatre
-added:
-cambro, ipornovideos, reallifecam,voyeurhouse,videomegaporn
+        <news>[B]Version 1.2.18[/B]
+Fixed: animeidhentai
+Added: javhoho
 </news>
     </extension>
 </addon>
