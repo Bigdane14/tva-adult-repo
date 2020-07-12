@@ -1,3 +1,9 @@
+[B]Version 1.7.245[/B]
+
+- Removed: fapdu
+- Updated: eporner
+- Fixed: videolist
+
 [B]Version 1.7.244[/B]
 
 - Updated: pornhub
