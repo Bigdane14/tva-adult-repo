@@ -195,7 +195,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon
   id="plugin.video.videodevil"
-  version="1.8.2"
+  version="1.8.3"
   name="VideoDevil"
   provider-name="xbmc-adult">
   <requires>
