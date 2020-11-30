@@ -28,12 +28,13 @@
 
 <addon id="plugin.video.fantasticc"
        name="Fantasti.cc"
-       version="2.3.50"
+       version="2.4.1"
        provider-name="xbmc-adult">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.future"/>
-        <import addon="script.module.pil"/>
+        <!-- Commenting xbmc.python allows install on all versions of Kodi -->
+        <!-- <import addon="xbmc.python" version="2.1.0"/> -->
+        <import addon="script.module.kodi-six"/>
+        <import addon="script.module.six"/>
     </requires>
     <extension point="xbmc.python.pluginsource"
                library="default.py">
@@ -42,6 +43,9 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <license>GPL 2.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
         <summary lang="en">Fantasti.cc -  Browse videos from a site that aggregates the best porn videos online using the votes of users as the deciding factor</summary>
         <description lang="en">Browse collections (user designed categories) as well as the most popular videos today/week/month as decided by the users of the site</description>
     </extension>
@@ -74,7 +78,7 @@ JAVStream V0.93.4 (3rd March 2018)
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.2.29"
+       version="1.2.36"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -98,10 +102,11 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.2.29[/B]
-Fixed: Eporner
-Fixed: IPornoVideos
-Fixed: Spankbang
+        <news>[B]Version 1.2.36[/B]
+PornTrex/JavBangers favorites fix
+Beeg improvements
+Fixed download PornHD
+Fixed: ParadiseHill
 </news>
     </extension>
 </addon>
@@ -191,7 +196,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon
   id="plugin.video.videodevil"
-  version="1.8.4"
+  version="1.8.7"
   name="VideoDevil"
   provider-name="xbmc-adult">
   <requires>
@@ -551,10 +556,12 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
   </extension>
 </addon>
 
-<addon id="plugin.video.empflix" name="Empflix" version="2.0.15" provider-name="xbmc-adult">
+<addon id="plugin.video.empflix" name="Empflix" version="2.1.0" provider-name="xbmc-adult">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.future" version="0.0.1"/>
+        <!-- Commenting xbmc.python allows install on all versions of Kodi -->
+        <!-- <import addon="xbmc.python" version="2.1.0"/> -->
+        <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -564,6 +571,9 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
         <description>Empflix.com features a variety of adult videos. This addon contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon.  All content is hosted by empflix.com.</description>
         <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
     </extension>
 </addon>
 
@@ -614,7 +624,7 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
 
 <addon id="metadata.movie.aebn.net"
        name="AEBN"
-       version="1.2.5"
+       version="1.2.6"
        provider-name="xbmc-adult">
   <requires>
     <import addon="xbmc.metadata" version="1.0"/>
