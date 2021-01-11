@@ -1,3 +1,17 @@
+Version 1.2.43
+Removed Cumination dependency
+
+Version 1.2.42
+Welcome to Cumination!
+Matrix and Leia compatible release
+Backup favorites from UWC can be imported.
+
+Happy New Year From Team Cumination!
+
+Version 1.2.41
+Updated: Beeg
+Updated: StreamXXX
+
 Version 1.2.40
 Download ffmpeg issue resolved
 
