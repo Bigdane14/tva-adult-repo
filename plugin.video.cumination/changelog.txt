@@ -1,8 +1,5 @@
-[B]Version 1.1.2[/B]
-Initial public release
-Fixed: Notifications
-Fixed: Keywords from UWC backup 
-Fixed: Adding Chaturbate categories to custom lists
-Fixed: pornhub next page on search
-Removed: k18 website
-Changed: Reversed order of keywords and favorites
+[B]Version 1.1.4[/B]
+  - Beeg: add long names as plot in listing
+  - Fix Aagmaal
+  - Remove caching on cam sites
+  - Porntrex & Javbangers: logout: confirmation dialog added when deleting stored username/password
