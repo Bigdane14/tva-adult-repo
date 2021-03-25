@@ -1,5 +1,6 @@
-[B]Version 1.1.4[/B]
-  - Beeg: add long names as plot in listing
-  - Fix Aagmaal
-  - Remove caching on cam sites
-  - Porntrex & Javbangers: logout: confirmation dialog added when deleting stored username/password
+[B]Version 1.1.9[/B]
+fixed: speedporn & netflixporno video play
+added: herexxx
+added: asstoo
+fixed: daftsex
+fixed: showing quality/duration in favorites
