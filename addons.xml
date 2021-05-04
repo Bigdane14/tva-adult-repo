@@ -78,7 +78,7 @@ JAVStream V0.93.4 (3rd March 2018)
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.2.45"
+       version="1.2.46"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -102,8 +102,11 @@ JAVStream V0.93.4 (3rd March 2018)
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.2.45[/B]
-Added keyword alphabetical sorting
+        <news>[B]Version 1.2.46[/B]
+Chaturbate fixed
+Myfreecams fixed
+Desixnxx fixed
+FINALE RELEASE, CUMINATION FROM HERE ON
 </news>
     </extension>
 </addon>
@@ -289,33 +292,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.adultflix.artwork" version="1.0.0" name="AdultFlix Artwork" provider-name="TV ADDONS">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Artwork for AdultFlix</summary>
-		<description>Artwork for AdultFlix is maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.xxxadultxbmc" name="AdultXBMC Add-on Repository" version="2.0.0" provider-name="tvaddons">
-	<extension point="xbmc.addon.repository" name="AdultXBMC Add-on Repository">
-		<info compressed="false">https://github.com/tvaddonsco/tva-adult-repo/raw/master/addons.xml</info>
-		<checksum>https://github.com/tvaddonsco/tva-adult-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/tvaddonsco/tva-adult-repo/raw/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Adult Content for Kodi from High Quality Sources Only</summary>
-		<description>Collection of Adult Addons for Kodi by Various Developers</description>
-		<platform>all</platform>
-                <forum>http://www.tvaddons.co</forum>
-                <website>http://www.tvaddons.co</website>
-	</extension>
-</addon>
-
 <addon id="plugin.video.adulthideout" name="AdultHideout" version="0.8.6" provider-name="Vashiel">
     <requires>
     </requires>
@@ -413,24 +389,7 @@ adulthideout@yandex.com[/COLOR]
 	</extension>
 </addon>
 
-<addon id="script.adultflix.scrapers" name="AdultFlix Scrapers" version="1.1.0" provider-name="tvaddons">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0" />
-		<import addon="script.module.kodi-six" version="0.0.2"/>
-		<import addon="script.module.six" version="1.11.0"/>
-		<import addon="script.module.librarypack"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Scrapers for use in AdultFlix</summary>
-		<news>- Updated several scrapers
-- Adapted for librarypack utilization
-- Added Python 3 compatibility with the help of python-six and kodi-six (untested)</news>
-	</extension>
-</addon>
-
-<addon id="plugin.video.cumination" name="Cumination" provider-name="Cumination" version="1.1.11">
+<addon id="plugin.video.cumination" name="Cumination" provider-name="Cumination" version="1.1.13">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
@@ -475,51 +434,8 @@ adulthideout@yandex.com[/COLOR]
   </extension>
 </addon>
 
-<addon id="plugin.video.adultflix" name="AdultFlix" version="1.1.0" provider-name="tvaddons">
-    <requires>
-        <import addon="xbmc.python" version="2.24.0"/>
-        <import addon="script.module.librarypack"/>
-        <import addon="script.adultflix.artwork"/>
-        <import addon="script.adultflix.scrapers"/>
-        <import addon="script.module.resolveurl"/>
-        <import addon="script.module.resolveurl.xxx"/>
-        <import addon="script.module.pyxbmct"/>
-        <import addon="script.module.requests" />
-        <import addon="script.module.kodi-six" version="0.0.2"/>
-		<import addon="script.module.six" version="1.11.0"/>
-        <!--<import addon="repository.tvaxxx"/>-->
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup"/>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <reuselanguageinvoker>false</reuselanguageinvoker>
-    <summary lang="en">AdultFlix is the most powerful adult addon for Kodi.</summary>
-    <description lang="en">AdultFlix is the most powerful adult addon for Kodi. Hundreds of thousands of XXX videos from endless 18+ sources. This Kodi addon is for adult audiences only!
-
-Scraped sources include: chaturbate, collectionsofbestporn, daftporn, drtuber, eightmuses, eporner, fourtube, fuqer, girlfriendvideos, gotporn, hclips, heavyr, hentaiheaven, justpornotv, madthumbs, motherless, nxgx, overthumbs, pandamovie, perfectgirls, porn00, porn.com, porndig, pornfun, pornhd, pornhub, pornilly, pornxs, redtube, sexkino_movies, sexvr, spankbang, spreadporn, streamingporn, 3movs, tube8, tubepornclassic, voyeurhit, vporn, vrsmash, watchmygf, watchxxxfree, xhamster, xnxx, xtheatre, xvideos, youjizz, youporn, and zzcartoon.</description>
-    <disclaimer lang="en">This Kodi addon contains age-restricted materials. By entering this Kodi addon, you swear under penalty of perjury that you are over the age of 18, and over the age of majority in the location from where you are accessing this Kodi addon.  If you are under the age of 18 years, or under the age of majority in the location from where you are accessing this Kodi addon, you do not have authorization or permission to use.</disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <website>https://github.com/tvaddonsco/plugin.video.adultflix</website>
-    <forum>https://www.tvaddons.co/forums</forum>
-      <news>~ Version 1.1.0
-- Adapted for librarypack utilization
-- Tweaks to imports on default.py (url_dispatcher)
-- Added Python 3 compatibility with the help of python-six and kodi-six (untested)
-- Various bug fixes</news>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.com.pornky"
-version="0.9.2"
+version="0.9.4"
 name="pornky.com"
 provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
 <requires>
@@ -543,7 +459,7 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
     <fanart>fanart.jpg</fanart>
   </assets>
   <email>fr33p0rt@protonmail.com</email>
-  <news>Login and download support.</news>
+  <news>Improved Python 3 compatibility, settings restructured, options to suppress category and video preview, reproducible build, video path calculation update</news>
 </extension>
 </addon>
 
