@@ -196,7 +196,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon
   id="plugin.video.videodevil"
-  version="1.8.11"
+  version="1.8.20"
   name="VideoDevil"
   provider-name="xbmc-adult">
   <requires>
@@ -389,7 +389,7 @@ adulthideout@yandex.com[/COLOR]
 	</extension>
 </addon>
 
-<addon id="plugin.video.cumination" name="Cumination" provider-name="Cumination" version="1.1.19">
+<addon id="plugin.video.cumination" name="Cumination" provider-name="Cumination" version="1.1.27">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
